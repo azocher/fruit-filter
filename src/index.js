@@ -4,9 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const fruits = ['Pineapples', 'Honey Crisp Apples', 'Mangoes', 'Star Fruit', 'Kumquat', 'Lychee', 'Lingonberries']
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App fruits={fruits} />
   </React.StrictMode>,
   document.getElementById('root')
 );
